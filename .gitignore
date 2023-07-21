@@ -1,0 +1,98 @@
+# Author tomyuan @ 2021.05.14
+# =============== #
+# Unity Generated #
+# =============== #
+
+/Library/
+/Library/*
+Temp/
+UserSettings/*
+
+# Debug Temporary Files
+obj/
+
+
+# ====================== #
+# Unity Editor Generated #
+# ====================== #
+Assets/StreamingAssets/*
+!Assets/StreamingAssets/VersionCfg.json
+!Assets/StreamingAssets/google-services-desktop.json
+!Assets/StreamingAssets/google-services.json
+!Assets/StreamingAssets/datastat_page_fragment.properties
+!Assets/StreamingAssets/datastat_page_activity.properties
+#Assets/StreamingAssets/iOS*
+#Assets/StreamingAssets/Android*
+#Assets/StreamingAssets/Win*
+Assets/Resources/Lua*
+
+
+# ==== #
+# Gen
+# ==== #
+AssetsPackage/*.bytes*
+AssetsPackage/Lua/*
+Assets/Scripts/XLua/Gen/*.cs.meta
+Assets/AssetsPackage/Lua/*
+
+# ===================================== #
+# Visual Studio / MonoDevelop Generated #
+# ===================================== #
+/*.csproj
+/*.sln
+/*.userprefs
+/*.sln.DotSettings.user
+.vs/
+.vsconfig
+.vsconfig/*
+
+# =============== #
+# IDE 			  #
+# =============== #
+.vscode/
+.idea/
+/*.code-workspace
+
+# =============== #
+# Build Generated #
+# =============== #
+Builds/
+Build/
+UnitySuccess.mark
+build_log.txt
+
+#iOS/
+#Win/
+#Android/
+
+# ============ #
+#  Keys        #
+# ============ #
+/*.keystore
+
+# ============ #
+#  Logs        #
+# ============ #
+Logs/*
+/Logs/*
+
+# ============ #
+# OS Generated #
+# ============ #
+.DS_Store
+
+# ================ #
+# Custom Generated #
+# ================ #
+/AssetBundles/*
+/Assets/Resources/PrefabsInBundles*
+
+# Generated using `npm install` command
+/node_modules/*
+
+#
+#ProjectSettings/ProjectVersion.txt
+
+# MergeMiracle
+MergeMiracle/*
+/SerializedBuildInfo/*

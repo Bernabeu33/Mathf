@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d555645d3859149ceb077ba20f1369e1
+  m_SerializeEntries:
+  - m_GUID: e8162e72d2e014328a9d475bf41797bd
+    m_Address: Assets/Materials/red.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ee62e3d01c176451ca9269df078c4034
+    m_Address: Assets/Prefabs/Adressables/Cube.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - 2
+  - m_GUID: fd88bed371b094a658cd835743cddb9a
+    m_Address: Assets/Prefabs/Adressables/Sphere.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 88f175d2a3f664245b541b8ba3ff7b7f
+    m_Address: Assets/Prefabs/Adressables/Capsule.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - 1
+  - m_GUID: 05a260577d5ea4680b201a1de26b8ece
+    m_Address: Assets/Prefabs/Adressables/Cylinder.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - 2
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 523fec4178f1440988b9ecbd214dabe6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 39565fa99bab94d6092ef4aa9289b8fc, type: 2}
+    - {fileID: 11400000, guid: ef912a057781b49369e2c8dbae580568, type: 2}
