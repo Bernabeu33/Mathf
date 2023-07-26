@@ -42,13 +42,13 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Plugins/DOTween/Modules/DOTweenModulePhysics2D.cs" />
-     <Compile Include="Assets/Plugins/DOTween/Modules/DOTweenModuleSprite.cs" />
-     <Compile Include="Assets/Plugins/DOTween/Modules/DOTweenModuleAudio.cs" />
-     <Compile Include="Assets/Plugins/DOTween/Modules/DOTweenModuleUnityVersion.cs" />
      <Compile Include="Assets/Plugins/DOTween/Modules/DOTweenModulePhysics.cs" />
-     <Compile Include="Assets/Plugins/DOTween/Modules/DOTweenModuleUI.cs" />
-     <Compile Include="Assets/Plugins/DOTween/Modules/DOTweenModuleUtils.cs" />
+     <Compile Include="Assets/Plugins/DOTween/Modules/DOTweenModuleUnityVersion.cs" />
      <Compile Include="Assets/Plugins/DOTween/Modules/DOTweenModuleEPOOutline.cs" />
+     <Compile Include="Assets/Plugins/DOTween/Modules/DOTweenModuleSprite.cs" />
+     <Compile Include="Assets/Plugins/DOTween/Modules/DOTweenModuleUtils.cs" />
+     <Compile Include="Assets/Plugins/DOTween/Modules/DOTweenModuleUI.cs" />
+     <Compile Include="Assets/Plugins/DOTween/Modules/DOTweenModuleAudio.cs" />
      <Folder Include="Assets/Plugins" />
      <Folder Include="Assets/Plugins/DOTween/Modules" />
      <Folder Include="Assets/Plugins/DOTween" />
@@ -638,6 +638,12 @@
      <Reference Include="Unity.2D.Tilemap.Editor">
      <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEditor.CacheServer">
+     <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Addressables">
+     <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
@@ -653,8 +659,20 @@
      <Reference Include="Unity.TextMeshPro">
      <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.ScriptableBuildPipeline">
+     <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.2D.Sprite.Editor">
      <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Addressables.Editor">
+     <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/Unity.Addressables.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ResourceManager">
+     <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+     <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -667,24 +685,6 @@
      </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Addressables">
-     <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Addressables.Editor">
-     <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/Unity.Addressables.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.CacheServer">
-     <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ResourceManager">
-     <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ScriptableBuildPipeline">
-     <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-     <HintPath>/Users/mac/Desktop/WorkSpace/MMath/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
